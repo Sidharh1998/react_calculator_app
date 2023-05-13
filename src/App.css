@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+*{
+  font-family: 'inter';
+  background-color: black;
+  color: white;
+
+}
+
+.row{
+  display: flex;
+  flex-flow: row;
+  gap: 2rem;
+}
+.btn{
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+input{
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+.error{
+
+  color: red;
+}
+.sucess{
+  color: greenyellow;
+}
